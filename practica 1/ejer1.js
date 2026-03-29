@@ -5,7 +5,7 @@ const miFuncion = (texto) => {
     let obj = {a: 0, e: 0, i: 0, o: 0, u: 0};
     for (let i = 0; i < texto.length; i++) {
         if (["a", "e", "i", "o", "u"].includes(texto[i])) {
-            obj[texto[i]] = obj[texto[i]] + 1;
+            obj[texto[i]] += 1;
         }
     }
     return obj;
