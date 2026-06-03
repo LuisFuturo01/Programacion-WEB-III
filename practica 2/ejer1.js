@@ -113,7 +113,7 @@ app.delete('/categorias/:id', async (req, res)=>{
 
 const port=3001;
 app.listen(port, () => {
-    console.log(`Servidor escuchando en el puerto ${port}`);
+    console.log(`Servidor corriendo en el puerto ${port}`);
 });
 
 
